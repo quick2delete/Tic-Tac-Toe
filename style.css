@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
 
 * {
   padding: 0;
@@ -7,14 +7,45 @@
 }
 
 body {
-  font-family: 'Silkscreen', cursive;
+  font-family: "Silkscreen", cursive;
 }
 
 .container {
-  height: 500px;
-  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.container img{
+  height: 100px;
+  width: 100px;
+}
+
+.container-box{
+  height: 400px;
+  width: 400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  background-color: aquamarine;
+
+}
+
+.box {
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+
+  height: 100%;
+  width: 100%;
+}
+
+.clicked{
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
