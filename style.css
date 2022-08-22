@@ -17,18 +17,17 @@ body {
   gap: 70px;
 }
 
-.container img{
+.container img {
   height: 100px;
   width: 100px;
 }
 
-.container-box{
-  height: 400px;
-  width: 400px;
+.container-box {
+  min-height: 400px;
+  min-width: 400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-
 }
 
 .box {
@@ -38,12 +37,11 @@ body {
 }
 
 .btn {
-
   height: 100%;
   width: 100%;
 }
 
-.clicked{
+.clicked {
   font-size: 6rem;
   display: flex;
   justify-content: center;
